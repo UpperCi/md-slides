@@ -4,7 +4,10 @@
   "description": "prg6 project",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "marked": "^4.0.5",
+    "mongoose": "^6.0.14"
   },
   "devDependencies": {},
   "scripts": {
