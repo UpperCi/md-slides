@@ -12,7 +12,7 @@ app.use(bp.urlencoded({extendedparser: true}));
 mongoose.connect("mongodb://127.0.0.1:27017/");
 
 app.get('/', function(req, res){
-   res.send("Hi world!");
+   res.json({'message' : "Hi world!"});
 });
 
 let presentationsRouter = require('./routes/presentationsRoutes')();

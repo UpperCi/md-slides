@@ -2,20 +2,19 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-let presentationModel = new Schema(
+let presentationSchema = new Schema(
    {
       title: { type: String, required: true },
-      content: { type: String, required: true  },
-      desc: { type: String, required: true  },
-      author: { type: String, required: true  },
+      content: { type: String, required: true },
+      desc: { type: String, required: true },
+      author: { type: String, required: true },
       _links: { type: Object, required: true }
    }
 );
 
-// presentationModel.virtual('_links').get(() => {
-//    return {
-//       'self' : "sdada"
-//    }
-// })
+const Presentation = mongoose.model('Presentation', presentationSchema);
+// Presentation.save(function (error) {
+//    error = Presentation.validateSync();
+// });
 
-module.exports = mongoose.model('Presentation', presentationModel);
+module.exports = Presentation;
