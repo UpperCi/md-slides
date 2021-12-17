@@ -19,4 +19,4 @@ let presentationsRouter = require('./routes/presentationsRoutes')();
 
 app.use('/api', presentationsRouter);
 
-app.listen(8001, () => console.log('listening on http://localhost:8001'));
+app.listen(8001, () => console.log('listening on port 8001'));
