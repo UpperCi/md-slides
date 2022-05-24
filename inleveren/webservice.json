@@ -1,5 +1,5 @@
 {
     "uri": "http://145.24.222.204:8001/api/", 
     "uitleg": "maak slideshows door de content in markdown te schrijven.",
-    "fields": ["title", "content", "desc", "author"]
+    "_fields": ["title", "content", "desc", "author"]
 }

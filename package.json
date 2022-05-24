@@ -1,0 +1,28 @@
+{
+  "name": "prg6",
+  "version": "1.0.0",
+  "description": "prg6 project.",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UpperCi/md-slides.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UpperCi/md-slides/issues"
+  },
+  "homepage": "https://github.com/UpperCi/md-slides#readme"
+}
